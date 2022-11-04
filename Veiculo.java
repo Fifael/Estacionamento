@@ -39,8 +39,8 @@ public abstract class Veiculo implements GetId {
 
     @Override
     public String toString() {
-        return "Id=" + id + "\n"
-              + "Nome=" + nome + "\n";
+        return "Id veiculo=" + id + "\n"
+              + "Nome do veiculo=" + nome + "\n";
         
     }
     

@@ -13,7 +13,7 @@ public class Bicicleta extends Veiculo {
         String marca,
         String corB)
         {
-        super(GetId.getNextId(bicicletas), corB);
+        super(GetId.getNextId(bicicletas), nome);
             this.marca = marca;
             this.corB = corB;
             bicicletas.add(this);

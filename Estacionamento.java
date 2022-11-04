@@ -20,8 +20,8 @@ public class Estacionamento {
             System.out.println("7 - Remover Carro");
             System.out.println("8 - Remover Moto");
             System.out.println("9 - Remover Bicicleta");
-            System.out.println("10 - Remover Locacao");
-            System.out.println("11 - Remover Vaga");
+            System.out.println("10 - Remover Vaga");
+            System.out.println("11 - Remover Locacao");
             System.out.println("12 - Sair");
             System.out.print("Opção: ");
             try {
@@ -58,10 +58,10 @@ public class Estacionamento {
                     removerBicicleta(scanner);
                     break;
                 case 10:
-                    removerVaga(scanner);
+                    removerLocacao(scanner);
                     break;
                 case 11:
-                    removerLocacao(scanner);
+                    removerVaga(scanner);
                     break;
                 case 12:
                     sair();

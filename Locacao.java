@@ -78,10 +78,10 @@ public class Locacao implements GetId {
 
     @Override
     public String toString() {
-        return "Locacao id= " + id + "\n"
-         + ", data= " + data + "\n"
+        return "Id da Locacao= " + id + "\n"
+         + "Data da Locacao= " + data + "\n"
          + "Veiculo= " + veiculo.getNome() + "\n"
-         + ", vagas= " + vaga.getNumero() + "\n" + "]";
+         + "Vagas= " + vaga.getNumero() + "\n" + "";
     }
 
 }

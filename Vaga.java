@@ -88,11 +88,11 @@ public class Vaga implements GetId {
 
     @Override
     public String toString() {
-        return "id: " + id + "\n" +
-                "numero: " + numero + "\n" +
-                "tipo1: " + tipo1 + "\n" +
-                "tamanho: " + tamanho + "\n" +
-                "preco: " + preco + "\n"  ;
+        return "id da vaga: " + id + "\n" +
+                "Numero da vaga: " + numero + "\n" +
+                "Tipo da vaga: " + tipo1 + "\n" +
+                "tamanho da vaga: " + tamanho + "\n" +
+                "preco da vaga: " + preco + "\n"  ;
     }
 
     
