@@ -82,6 +82,9 @@ public class Estacionamento {
         switch (tipo) {
             case "C":
                 System.out.println("Informe a Placa do carro:");
+                scanner.useDelimiter("[A-Z]{3}-[0-9]{4}");
+                if(scanner.hasNext())
+                System. out.println(scanner.next());
                 String placa = scanner.next();
                 System.out.println("Informe a Cor do carro:");
                 String cor = scanner.next();
